@@ -55,7 +55,7 @@ instance/
 .vscode/
 .idea/
 
-# AI model files
+# AI model binary files (but keep Python source code)
 *.h5
 *.hdf5
 *.pt
@@ -64,11 +64,18 @@ instance/
 *.onnx
 *.joblib
 *.pkl
-models/
-checkpoints/
-weights/
 
-# Project-specific media
+# Model folders — keep code, ignore binaries
+backend/models/**/*.h5
+backend/models/**/*.hdf5
+backend/models/**/*.pt
+backend/models/**/*.pth
+backend/models/**/*.ckpt
+backend/models/**/*.onnx
+backend/models/**/*.joblib
+backend/models/**/*.pkl
+
+# Ignore uploaded files and recordings (runtime-generated)
 backend/models/uploads/
 backend/recordings/
 
