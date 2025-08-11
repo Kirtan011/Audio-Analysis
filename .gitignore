@@ -77,7 +77,6 @@ backend/models/**/*.pkl
 
 # Ignore uploaded files and recordings (runtime-generated)
 backend/models/uploads/
-backend/recordings/
 
 # Temporary processing folders
 temp/
