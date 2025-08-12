@@ -13,5 +13,3 @@ numpy
 
 # Google Gemini API
 google-generativeai
-
-# Note: 'werkzeug' is a dependency of Flask and will be installed automatically.

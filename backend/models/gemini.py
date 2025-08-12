@@ -18,8 +18,6 @@ model = genai.GenerativeModel("gemini-2.5-pro")
 
 def summarize_text_with_gemini(transcription: str, mode: str = "concise") -> str:
     """
-    Summarizes transcription using Gemini 2.5 Pro.
-    
     Modes:
       - "concise" (default): short paragraph summary
       - "bullet": bullet-point summary

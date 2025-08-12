@@ -12,6 +12,10 @@ CORS(app)
 UPLOAD_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "recordings")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+@app.route("/health")
+def health_check():
+    return jsonify({"status": "ok"}), 200
+
 @app.route("/transcribe", methods=["POST"])
 def upload_and_transcribe():
     if "audio" not in request.files:
