@@ -45,7 +45,7 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 
 ### Steps
 
-1. **Clone the repo**
+#### 1. **Clone the repo**
 
    ```bash
    git clone <your-repository-url>
@@ -53,7 +53,7 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 
    ```
 
-2. **Backend Setup**
+#### 2. **Backend Setup**
 
    ```bash
    #Navigate to the backend folder
@@ -68,7 +68,7 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 
    ```
 
-3. **Frontend Setup**
+#### 3. **Frontend Setup**
 
    ```bash
    # Navigate to the frontend folder
@@ -79,9 +79,9 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 
    ```
 
-4. **API KEY**
+#### 4. **API KEY**
 
-   1The backend requires an API key for Google Gemini.
+   The backend requires an API key for Google Gemini.
    In the backend directory, create a new file named .env.
    And then add your API key to this file:
 
@@ -90,9 +90,9 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 
    ```
 
-5. **Running the Application**
+#### 5. **Running the Application**
 
-#### 1. Start the Backend Server:
+ 1. **Start the Backend Server**:
 
 In your first terminal (in the backend directory with the virtual environment activated):
 
@@ -100,7 +100,7 @@ In your first terminal (in the backend directory with the virtual environment ac
 
 The Flask server will start, typically on http://127.0.0.1:5000.
 
-#### 2. Start the Frontend Development Server:
+ 2. **Start the Frontend Development Server**:
 
 In your second terminal (in the frontend directory):
 
@@ -108,4 +108,4 @@ In your second terminal (in the frontend directory):
 
 The React application will start, typically on http://localhost:5173
 
-#### 3. Open your browser and navigate to http://localhost:5173 to use the application.
+3. **Open your browser and navigate to http://localhost:5173 to use the application**.
