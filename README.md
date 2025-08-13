@@ -25,7 +25,7 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 
 | Category      | Technology                                                                      |
 | ------------- | ------------------------------------------------------------------------------- |
-| Frontend      | React, Vite, Tailwind CSS, Axios                                                |
+| Frontend      | React, Vite, Tailwind CSS, Shadcn-UI                                            |
 | Backend       | Python, Flask, Gunicorn                                                         |
 | Transcription | faster-whisper                                                                  |
 | Emotion AI    | PyTorch, transformers, librosa (wav2vec2-lg-xlsr-en-speech-emotion-recognition) |
