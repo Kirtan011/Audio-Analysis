@@ -30,7 +30,6 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 | Transcription | faster-whisper                                                                  |
 | Emotion AI    | PyTorch, transformers, librosa (wav2vec2-lg-xlsr-en-speech-emotion-recognition) |
 | Summarization | Google Gemini Pro API                                                           |
-| Deployment    | Docker, Render (or any Docker-supporting platform)                              |
 
 ---
 
