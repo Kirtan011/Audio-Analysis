@@ -1,19 +1,19 @@
-# 🔊 Emoscribe AI
+# Emoscribe AI
 
 An intelligent web application that transcribes audio, analyzes the emotional tone of speech, and provides concise AI-powered summaries.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🎤 **Audio Transcription:** Upload audio files (.wav, .mp3, etc.) and get highly accurate text transcriptions using the Faster-Whisper model.
-- 😊 **Emotion Analysis:** Detects dominant emotions in speech (joy, sadness, anger, neutral, etc.) via a fine-tuned Wav2Vec2 model.
-- 📝 **AI Summarization:** Generates concise, human-readable summaries using Google Gemini Pro API.
-- 🚀 **Modern Tech Stack:** React frontend with Vite & Tailwind CSS; Python Flask backend with Gunicorn.
+-  **Audio Transcription:** Upload audio files (.wav, .mp3, etc.) and get highly accurate text transcriptions using the Faster-Whisper model.
+-  **Emotion Analysis:** Detects dominant emotions in speech (joy, sadness, anger, neutral, etc.) via a fine-tuned Wav2Vec2 model.
+-  **AI Summarization:** Generates concise, human-readable summaries using Google Gemini Pro API.
+-  **Modern Tech Stack:** React frontend with Vite & Tailwind CSS; Python Flask backend with Gunicorn.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 - **Frontend:** React + Vite handles UI, uploads, and results display.
 - **Backend:** Flask API serves AI models for transcription, emotion detection, and summarization.
@@ -21,7 +21,7 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category      | Technology                                                                      |
 | ------------- | ------------------------------------------------------------------------------- |
@@ -33,7 +33,7 @@ An intelligent web application that transcribes audio, analyzes the emotional to
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 
