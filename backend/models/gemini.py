@@ -3,7 +3,6 @@ import time
 from dotenv import load_dotenv
 import google.generativeai as genai
 
-# Load API key from .env once at module level
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
@@ -47,7 +46,7 @@ Text:
 Your response should be accurate, human-readable, and avoid unnecessary repetition.
 """
 
-    # Retry mechanism in case of temporary failures
+    
     for attempt in range(3):
         try:
             response = model.generate_content(prompt)
@@ -59,7 +58,6 @@ Your response should be accurate, human-readable, and avoid unnecessary repetiti
     return "❌ Gemini summarization failed after multiple attempts."
 
 
-# Local test runner (optional)
 if __name__ == "__main__":
     test_text = """
     Interviewer: Welcome, doctor. Can you explain how AI is used in healthcare?
